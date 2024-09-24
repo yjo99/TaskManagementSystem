@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd51e84f-4d3c-4d3f-8123-19fe48368d08" name="Changes" comment="create entities">
+    <list default="true" id="cd51e84f-4d3c-4d3f-8123-19fe48368d08" name="Changes" comment="add database connection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication/src/main/java/org/banquemisr/challenge05/persistence/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication/src/main/java/org/banquemisr/challenge05/persistence/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication/src/main/resources/application-dev.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,17 +31,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/joe/TaskManagment/TaskManagementSystem/Authentication/src/main/java/org/banquemisr/challenge05/persistence/entity",
+    "last_opened_file_path": "D:/joe/TaskManagment/TaskManagementSystem/Authentication/src/main/java/org/banquemisr/challenge05/persistence/repository",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Problems",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
@@ -47,10 +53,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\joe\TaskManagment\TaskManagementSystem\Authentication\src\main\java\org\banquemisr\challenge05\persistence\repository" />
       <recent name="D:\joe\TaskManagment\TaskManagementSystem\Authentication\src\main\java\org\banquemisr\challenge05\persistence\entity" />
       <recent name="D:\joe\TaskManagment\TaskManagementSystem\Authentication\src\main\java\org\banquemisr\challenge05\bussiness\dto" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.banquemisr.challenge05.persistence.enums" />
       <recent name="org.banquemisr.challenge05.persistence.entity" />
     </key>
   </component>
@@ -61,7 +69,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Challenge05Application">
+  <component name="RunManager" selected="Spring Boot.AuthenticationApplication">
     <configuration name="AuthenticationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="challenge05" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.banquemisr.challenge05.AuthenticationApplication" />
@@ -87,7 +95,7 @@
       <updated>1727204087433</updated>
       <workItem from="1727204089063" duration="187000" />
       <workItem from="1727204282505" duration="273000" />
-      <workItem from="1727204571094" duration="1336000" />
+      <workItem from="1727204571094" duration="2224000" />
     </task>
     <task id="LOCAL-00001" summary="add authentication service with pom dependencies">
       <option name="closed" value="true" />
@@ -105,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727205646053</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add database connection">
+      <option name="closed" value="true" />
+      <created>1727206096013</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727206096013</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add authentication service with pom dependencies" />
     <MESSAGE value="create entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="create entities" />
+    <MESSAGE value="add database connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="add database connection" />
   </component>
 </project>
