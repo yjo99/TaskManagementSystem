@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd51e84f-4d3c-4d3f-8123-19fe48368d08" name="Changes" comment="add authentication service with pom dependencies">
-      <change beforePath="$PROJECT_DIR$/Authentication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication/pom.xml" afterDir="false" />
+    <list default="true" id="cd51e84f-4d3c-4d3f-8123-19fe48368d08" name="Changes" comment="create entities">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\joe\TaskManagment\TaskManagementSystem\Authentication\src\main\java\org\banquemisr\challenge05\persistence\entity" />
       <recent name="D:\joe\TaskManagment\TaskManagementSystem\Authentication\src\main\java\org\banquemisr\challenge05\bussiness\dto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.banquemisr.challenge05.persistence.entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -82,7 +87,7 @@
       <updated>1727204087433</updated>
       <workItem from="1727204089063" duration="187000" />
       <workItem from="1727204282505" duration="273000" />
-      <workItem from="1727204571094" duration="961000" />
+      <workItem from="1727204571094" duration="1336000" />
     </task>
     <task id="LOCAL-00001" summary="add authentication service with pom dependencies">
       <option name="closed" value="true" />
@@ -92,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727205338231</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create entities">
+      <option name="closed" value="true" />
+      <created>1727205646053</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727205646053</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add authentication service with pom dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="add authentication service with pom dependencies" />
+    <MESSAGE value="create entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="create entities" />
   </component>
 </project>
